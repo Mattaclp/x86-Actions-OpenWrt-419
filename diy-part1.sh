@@ -46,6 +46,10 @@ sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main' 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-diskman package/lean/luci-app-diskman
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/parted package/lean/parted
 
+# add koolproxyR
+git clone https://github.com/Beginner-Go/luci-app-koolproxyR
+mv luci-app-koolproxyR package/lean/
+
 # Add Mattraks helloworld
 #sed -i '$a src-git helloworld https://github.com/Mattraks/helloworld' feeds.conf.default
 
