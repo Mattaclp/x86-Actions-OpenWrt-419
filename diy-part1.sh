@@ -30,7 +30,8 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
 mv luci-app-jd-dailybonus package/lean/
 
 # add filebrowser
-svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-filebrowser package/lean/luci-app-filebrowser
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/filebrowser package/lean/filebrowser
 
 # add Adguardhome
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-adguardhome package/lean/luci-app-adguardhome
